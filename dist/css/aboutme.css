@@ -1,0 +1,185 @@
+/* --------------------------------------------------------------- */
+.sidebar {
+    position: absolute;
+    width: 6.5vw;
+    height: 48vw;
+    border-right: 2px solid #F0C929;
+}
+
+/* --------------------------------------------------------------- */
+ul {
+    list-style-type: none;
+}
+
+.media {
+    padding-top: 15%;
+    position: absolute;
+}
+
+.media ul {
+    padding-left: 31px;
+}
+
+.media li {
+    margin-top: 1.5vw;
+}
+
+.media ul li a {
+    margin: 1.5vw -0.7vw;
+    width: 5vw;
+    height: 5vw;
+}
+
+/* ----------------------------------------------------------------------------- */
+.cheerPicture {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    margin-right: 6vw;
+    margin-top: 10%;
+    Z-index: 3;
+}
+
+.cheerPicture img {
+    display: block;
+    width: 26.4vw;
+    text-align: right;
+    position: sticky;
+    left: 72.5vw;
+}
+
+.cheerPicture .travelPicture {
+    display: none;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.cheer {
+    margin-left: 12%;
+}
+
+h4 {
+    font-size: 2.5em;
+    font-family: "Audrey";
+    margin-Bottom: 1%;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: "Audrey";
+    font-size: 1em;
+    margin-bottom: 0%;
+    color: #AC0D0D;
+}
+
+.info {
+    font-family: "Corbel";
+    font-size: 1.29em;
+    font-weight: 400;
+}
+
+.genInfo {
+    width: 60%;
+}
+
+.tbInfo {
+    width: 34%
+}
+
+#tbInfoDiv {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+
+
+/* --------------------------------------------------------------------------- */
+
+#cheerLine {
+    margin-top: 4.8%;
+    right: 0;
+    position: absolute;
+    width: 60%;
+    border-bottom: 3px solid #F0C929
+}
+
+/* ----------------------------------------------------------------------------- */
+#content-wrap {
+    padding-bottom: 15%;
+    /* Footer height */
+}
+
+@media only screen and (max-width:1250px) {
+    aside.media {
+        display: none;
+    }
+
+    .cheerPicture {
+        margin-top: 390px;
+        margin-right: 1vw;
+    }
+
+    .cheerPicture img {
+        width: 35.4vw;
+        text-align: right;
+        right: 0;
+    }
+
+
+    p.info {
+        width: 90%;
+        font-size: 1.1em;
+        font-family: "Corbel";
+    }
+
+    #tbInfoDiv {
+        width: 65%;
+        margin-top: 80px;
+        margin-left: 0vw;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    #tbInfoDiv {
+        width: 65%;
+        margin-left: -7vw;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #cheer {
+        margin-top: 15vw;
+    }
+
+    h4 {
+        margin-top: 0;
+        width: 60%;
+    }
+
+    #tbInfoDiv h4 {
+        width: 100%;
+    }
+
+    .cheer .infoDiv {
+        margin-top: 0;
+    }
+
+    #aboutMeFirst {
+        width: 70%
+    }
+
+    .cheerPicture {
+        margin-top: -15vw;
+        margin-right: 1vw;
+    }
+
+    #tbInfoDiv {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:319px) {
+    .cheerPicture {
+        display: none;
+    }
+}

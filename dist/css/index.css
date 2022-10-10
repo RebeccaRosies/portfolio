@@ -1,0 +1,487 @@
+.name {
+    border-top: 5vw solid #FFF;
+    border-left: 3.3vw solid #FFF;
+    background-color: #FBE6C2;
+    height: 34.5vw;
+    margin-right: 20vw;
+}
+
+h2 {
+    font-family: "Audrey";
+    font-weight: 300;
+    font-size: 13vw;
+    color: #AC0D0D;
+    margin: 0 3.5vw;
+    letter-spacing: -0.09em;
+    height: 15vw;
+}
+
+.lastName {
+    margin-left: 34vw;
+}
+
+.sidebar {
+    position: absolute;
+    width: 6.5vw;
+    height: 100vw;
+    border-right: 2px solid #F0C929;
+}
+
+.homePicture {
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+
+.homePicture img {
+    display: block;
+    width: 26.4vw;
+    text-align: right;
+    position: sticky;
+    right: 0;
+    left: 72.5vw;
+}
+
+.homePicture .travelPicture {
+    display: none;
+}
+
+
+aside.media {
+    display: inline-block;
+    width: 20%;
+    margin-right: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.media li {
+    margin-top: 1.5vw;
+}
+
+.media ul li a {
+    margin: 1.5vw 6.5vw;
+    width: 5vw;
+    height: 5vw;
+}
+
+.intro {
+    display: inline-block;
+    font-family: "corbel";
+    font-size: 1.3em;
+    font-weight: 600;
+    width: 50%;
+    vertical-align: text-bottom;
+}
+
+.mobileIntro {
+    display: none;
+}
+
+
+/* MOBILE VERSION */
+@media only screen and (max-width:768px) {
+    .name {
+        height: 50vw;
+        margin-right: 10vw;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    h2 {
+        font-size: 20vw;
+        height: 18vw;
+    }
+
+    .lastName {
+        margin-left: 20vw;
+        margin-top: 6px;
+    }
+
+    .intro {
+        display: none;
+    }
+
+    .mobileIntro {
+        display: inline-block;
+        width: 80%;
+        margin-left: 10%;
+        font-size: 0.75em;
+    }
+
+    aside.media {
+        display: none;
+    }
+}
+
+/* ============================================================================================ */
+/* ---------PORTFOLIO--------------------------------------------------------------------------------------------------- */
+.mobile {
+    display: none;
+}
+
+#portfolio {
+    height: 850px;
+    height: 553px;
+    margin-top: 5vw;
+    margin-left: 7vw;
+}
+
+#portfolio nav {
+    text-align: left;
+    width: 60%;
+    margin-right: auto;
+    transform: translateX(-0.52vw);
+    border-top: 2px solid #F0C929;
+}
+
+#portfolio nav ul {
+    flex-wrap: wrap;
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    margin: 0px 10px 0px 10px;
+    padding-left: 0;
+}
+
+#portfolio nav ul li {
+    font-family: "Audrey";
+    text-align: center;
+    list-style-type: none;
+    padding: 10px 30px 0 30px;
+    margin: 0 20px;
+    margin-top: 0.2vw;
+    border-top: 2px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+#portfolio nav .thisSlide {
+    border-top: 2px solid #AC0D0D;
+    color: #AC0D0D;
+}
+
+#portfolio nav li:hover {
+    margin-top: 0.2vw;
+    border-top: 2px solid
+        /* #faf2c8 */
+        #F0C929;
+}
+
+#portfolio nav li:focus {
+    margin-top: 0.2vw;
+    border-top: 3px solid
+        /* #ffe924 */
+        #AC0D0D;
+}
+
+
+
+/* --------SLIDES-------------------------------------------------------------------------------------- */
+
+.slider {
+    margin-top: 5vw;
+    width: 87vw;
+    height: 107%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.slide {
+    position: absolute;
+    margin-top: 1vw;
+    width: 87vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 3px;
+}
+
+.threeD {
+    margin-top: 10vw;
+    margin: 1.5vw;
+    background-color: #FBE6C2;
+    width: 21vw;
+    height: 15vw;
+    border-radius: 3px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.btn {
+    margin: 0.3vw 2vw 0 0;
+    width: 1.2vw;
+    height: 1vw;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 4;
+    color: rgba(255, 255, 255, 0);
+}
+
+.btn img {
+    width: 1.2vw;
+}
+
+.btnPrev {
+    top: 20%;
+    left: 2%;
+    transform: rotate(-30deg);
+}
+
+.btnNext {
+    top: 20%;
+    left: 95%;
+    transform: rotate(30deg);
+}
+
+/*---------PROJECT_CONTENT----------------------------------------------------------------- */
+
+.slide div img {
+    width: 100%;
+    height: auto;
+}
+
+.slide div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.projectTitle {
+    color: black;
+    font-family: "Audrey";
+    text-align: center;
+    margin-top: 0.7vw;
+    margin-bottom: 0;
+}
+
+.projectInfo {
+    color: black;
+    font-family: "Corbel";
+    text-align: center;
+    font-size: 0.72em;
+    margin-top: 0.2;
+}
+
+/*--------PROJECT_VIDEOS-------------------------------------------------------------------------- */
+.projectVideo {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+/*--------WEB----------------------------------------------------------------------------------------- */
+.web {
+    margin-top: 5vw;
+    margin: 1.5vw;
+    background-color: #FBE6C2;
+    width: 21vw;
+    height: 28vw;
+    border-radius: 3px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    object-fit: scale-down;
+    overflow: auto;
+}
+
+.web div {
+    width: 21vw;
+    height: 30vw;
+    overflow: auto;
+}
+
+.web p a {
+    text-decoration: none;
+    color: #F58B26;
+    font-family: "Corbel";
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.web p a:hover {
+    text-decoration: none;
+    color: #AC0D0D;
+    font-family: "Corbel";
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:1250px) {
+
+    .mobile {
+        display: block;
+    }
+
+    #portfolio {
+        height: 850px;
+    }
+
+    h3 {
+        border-top: solid 2px #F0C929;
+        padding: 4px 0px 0px 7px;
+        margin-top: 8vw;
+        margin-bottom: 4px;
+        margin-left: 6%;
+        width: 60%;
+        font-family: "Audrey";
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .portfolio {
+        position: relative;
+    }
+
+    .sliderM {
+        text-align: center;
+        height: 65vw;
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    .slideM {
+        margin-top: 1vw;
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+
+    .slideM div img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slideM div {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .threeDM,
+    .webM {
+        margin-top: 10vw;
+        margin: 1.5vw;
+        background-color: #ffffff;
+        border-radius: 3px;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        width: 100%;
+        height: 763px;
+    }
+
+
+    .webM img {
+        width: 100%;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+
+    .threeDM img {
+        width: 85%;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+
+    .threeDM video {
+        width: 85%;
+        margin-left: 7.5%;
+    }
+
+    .projectVideo {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+
+    .goRightMobile,
+    .goLeftMobile {
+        position: absolute;
+        width: 61px;
+        z-index: 5;
+        margin-top: 53%
+    }
+
+    .goLeftMobile {
+        left: 27px;
+    }
+
+    .goLeftMobile img {
+        transform: rotate(90deg);
+    }
+
+    .goRightMobile {
+        right: 0;
+    }
+
+    .goRightMobile img {
+        transform: rotate(-90deg);
+        margin-left: 12px;
+    }
+
+    .projectTitleM {
+        margin-top: 1vw;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 8px 0;
+    }
+
+    /* -----WEB MOBILE------------------------------------------------------------------- */
+
+    .webM div img {
+        width: 40%;
+        margin: auto;
+    }
+
+    .webM {
+        height: auto;
+    }
+
+    .webM div {
+        height: 32%;
+
+    }
+
+    .webM .ritcs {
+        width: 80%;
+        margin: 12% 12%;
+    }
+
+    .webM .disney {
+        width: 50%;
+        margin: 12% 25%;
+    }
+
+    .projectInfo a {
+        text-decoration: none;
+        color: #F58B26;
+        font-family: "Corbel";
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+}
+
+
+@media only screen and (max-width:768px) {
+    h3 {
+        padding: 4px 0px 0px 18px;
+        margin-left: 0%;
+    }
+}

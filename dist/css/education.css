@@ -1,0 +1,171 @@
+
+
+
+/* --------------------------------------------------------------- */
+.sidebar {
+    position: absolute;
+    width: 6.5vw;
+    height: 48vw;
+    border-right: 2px solid #F0C929;
+}
+
+/* --------------------------------------------------------------- */
+ul {
+    list-style-type: none;
+}
+
+.media {
+    padding-top: 15%;
+    position: absolute;
+}
+
+.media li {
+    margin-top: 1.5vw;
+}
+
+.media ul {
+    padding-left: 31px;
+}
+
+.media ul li a {
+    margin: 1.5vw -0.7vw;
+    width: 5vw;
+    height: 5vw;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.education {
+    margin-left: 12%;
+}
+
+h4 {
+    font-size: 2.5em;
+    font-family: "Audrey";
+    margin-Bottom: 1%;
+}
+
+h5 {
+    font-family: "Audrey";
+    font-size: 1em;
+    margin-bottom: 0%;
+    color: #AC0D0D;
+}
+
+#kul {
+    margin-top: 5%;
+}
+
+.eduInfo {
+    width: 65%;
+    font-family: "Corbel";
+    font-size: 1.29em;
+    font-weight: 400;
+}
+
+.skillsDiv {
+    margin-top: 2.5%;
+    font-family: "Corbel";
+    list-style-type: none;
+    margin-left: 34%;
+}
+
+.skillsListsDiv {
+    margin-left: 0%;
+    padding-left: 0;
+    font-family: "Corbel";
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+
+}
+
+.skillsList {
+    padding-left: 0;
+}
+
+#multecSkillsCol2 {
+    margin-left: 20%;
+}
+
+/* --------------------------------------------------------------------------- */
+
+#kulLine {
+    margin-top: 5.8%;
+    right: 0;
+    position: absolute;
+    width: 54vw;
+    border-bottom: 3px solid #F0C929
+}
+
+#circle {
+    position: absolute;
+    margin-left: 84%;
+    margin-top: 7.5%;
+}
+
+/* ----------------------------------------------------------------------------- */
+#content-wrap {
+    padding-bottom: 15%;
+    /* Footer height */
+}
+
+@media only screen and (max-width:1250px) {
+    aside.media {
+        display: none;
+    }
+    h4{
+        margin-top:8vw;
+        font-size: 2.5em;
+    }
+
+    #kul h4{
+        margin-top:12vw;
+    }
+
+    .eduInfo{
+        font-size:1em;
+    }
+    .skillsDiv{
+        margin-left: 0;
+    }
+
+    #kul .skillsDiv{
+        margin-bottom: 31px;
+    }
+
+    div.skillsListsDiv{
+        width: 90%;
+    }
+
+    .skillsList{
+        width: 100%;
+    }
+
+    #circle {
+        position: absolute;
+        margin-left: 84%;
+        margin-top: 10%;
+    }
+}
+@media only screen and (max-width:468px) {
+
+    #circle {
+        margin-top: 70%;
+    }
+}
+@media only screen and (max-width:360px) {
+    #circle {
+        margin-left: 84%;
+        margin-top: 100%;
+    }
+}
+
+@media only screen and (max-width:319px) {
+    #circle {
+        margin-left: 84%;
+        margin-top: 170%;
+    }
+}
+
