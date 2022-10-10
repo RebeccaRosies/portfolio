@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official portfolio website of Rebecca Rosies, multimedia and technology student.">
+    <meta name="keywords" content="website, portfolio, internship, 3D, Belgium, VR, Coding">
+    <meta name="author" content="Rebecca Rosies">
+    <meta name="publisher" content="Rebecca Rosies">
+    <meta name="copyright" content="Rebecca Rosies">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../public/css/general_header.css">
+    <link rel="stylesheet" href="../public/css/contact.css">
+</head>
+
+<body>
+    <div id="pageContainer">
+        <div id="contentWrap">
+            <header>
+                <img id="logo" src="../public/images/logoV1.png" alt="">
+                <nav>
+                    <div>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li class="portfolioNav penultimateLiNav"><a class="anchorlink"
+                                    href="/#portfolio">Portfolio</a></li>
+                            <li id="lastLiNav" class="contactNavPage lastLiNav thispage"><a id="contactLink"
+                                    href="contact">Contact</a>
+                            </li>
+                            <li id="buttonLi"> <img id="navButton" class="navButton" src="../public/images/button.png"
+                                    alt="button">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <div id="myDropdown" class="dropdown-content">
+                            <div id="drop1">
+                                <a class="contactNav droplink1 thispage" href="/#contact">Contact</a>
+                                <img class="navButton" id="dropButton" src="../public/images/button.png" alt="button">
+                            </div>
+                            <a class="droplink2" href="education">Education</a>
+                            <a class="droplink3" href="aboutme">About Me</a>
+
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <div class="sidebar"></div>
+                <div class="contactPicture">
+                    <div class="emailLine">
+                        <p>Email</p>
+                        <p>rebeccarosies@outlook.be</p>
+                    </div>
+                    <img id="c1" class="hiddenPicture" src="../public/images/corfuA.png" alt="Rebecca Rosies in corfu">
+                    <img id="c2" class="travelPicture" src="../public/images/corfuB.png" alt="Rebecca Rosies in corfu">
+                </div>
+                <aside class="media">
+                    <ul>
+                        <li>
+                            <a href= "mailto:rebeccarosies@outlook.be" target="_blank">
+                                <img src="../public/images/mail.png" alt="mail logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/rebecca-rosies-0733461ba/" target="_blank">
+                                <img src="../public/images/linked.png" alt="linkedin logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/rebeccarosies/" target="_blank">
+                                <img src="../public/images/insta.png" alt="instagram logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/rebecca.rosies" target="_blank">
+                                <img src="../public/images/fb.png" alt="facebook logo">
+                            </a>
+                        </li>
+                    </ul>
+                </aside>
+
+                <div id="formDiv">
+                    <form action="/send_email" method="POST" id="emailForm">
+                        <h3>Contact Me!</h3>
+                        <input name="name" placeholder=" Name" type="text" id="name"><br>
+                        <input name="email" placeholder=" Email" type="email" id="email"><br>
+                        <input name="subject" placeholder=" Subject" type="text" id="subject"><br>
+                        <textarea name="message" form="emailForm" wrap="hard" placeholder=" Message" cols="200"
+                            id="message"></textarea><br>
+                        <button name="submit" id="submit" type="submit"> Send </button>
+                    </form>
+                </div>
+            </main>
+            <footer id="footer">
+                <p> &copy; Rebecca Rosies </p>
+                <div class="footerLine"></div>
+                <aside class="footerMedia" id="footerMedia">
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/rebeccarosies/" target="_blank">
+                                <img src="../public/images/insta.png" alt="instagram logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/rebecca-rosies-0733461ba/" target="_blank">
+                                <img src="../public/images/linked.png" alt="linkedin logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:rebeccarosies@outlook.be" target="_blank">
+                                <img src="../public/images/mail.png" alt="mail logo">
+                            </a>
+                        </li>
+                    </ul>
+                </aside>
+            </footer>
+        </div>
+
+    </div>
+    <script src="../public/src/script.js"></script>
+</body>
+</html>
