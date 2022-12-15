@@ -27,7 +27,7 @@
                             <li class="portfolioNav penultimateLiNav"><a class="anchorlink"
                                     href="/#portfolio">Portfolio</a></li>
                             <li id="lastLiNav" class="contactNavPage lastLiNav thispage"><a id="contactLink"
-                                    href="contact">Contact</a>
+                                    href="contact.html">Contact</a>
                             </li>
                             <li id="buttonLi"> <img id="navButton" class="navButton" src="images/button.png"
                                     alt="button">
@@ -37,11 +37,11 @@
                     <div class="dropdown">
                         <div id="myDropdown" class="dropdown-content">
                             <div id="drop1">
-                                <a class="contactNav droplink1 thispage" href="/#contact">Contact</a>
+                                <a class="contactNav droplink1 thispage" href="/#contact.html">Contact</a>
                                 <img class="navButton" id="dropButton" src="images/button.png" alt="button">
                             </div>
-                            <a class="droplink2" href="education">Education</a>
-                            <a class="droplink3" href="aboutme">About Me</a>
+                            <a class="droplink2" href="education.html">Education</a>
+                            <a class="droplink3" href="aboutme.html">About Me</a>
 
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                 <aside class="media">
                     <ul>
                         <li>
-                            <a href= "mailto:rebeccarosies@outlook.be" target="_blank">
+                            <a href="mailto:rebeccarosies@outlook.be" target="_blank">
                                 <img src="images/mail.png" alt="mail logo">
                             </a>
                         </li>
@@ -81,9 +81,10 @@
                         </li>
                     </ul>
                 </aside>
-<!-- 
+
                 <div id="formDiv">
-                    <form action="/send_email" method="POST" id="emailForm">
+                    <form action="https://mailthis.to/rebeccarosies" method="POST" id="emailForm"
+                        encType="multipart/form-data">
                         <h3>Contact Me!</h3>
                         <input name="name" placeholder=" Name" type="text" id="name"><br>
                         <input name="email" placeholder=" Email" type="email" id="email"><br>
@@ -92,7 +93,7 @@
                             id="message"></textarea><br>
                         <button name="submit" id="submit" type="submit"> Send </button>
                     </form>
-                </div> -->
+                </div>
             </main>
             <footer id="footer">
                 <p> &copy; Rebecca Rosies </p>
@@ -122,4 +123,5 @@
     </div>
     <script src="src/script.js"></script>
 </body>
+
 </html>
